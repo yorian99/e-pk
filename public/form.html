@@ -1880,7 +1880,7 @@
     
     const PRESENSI_DATANG_START = 6;
     const PRESENSI_DATANG_END = 7.17;
-    const PRESENSI_PULANG_START = 9;
+    const PRESENSI_PULANG_START = 15;
     const PRESENSI_PULANG_END = 17.5;
     
     function updateCurrentTime() {
@@ -1921,7 +1921,7 @@
       const pulangSlot = document.querySelector('.time-slot.pulang');
       const pulangStatus = pulangSlot.querySelector('.slot-status');
       const pulangTime = pulangSlot.querySelector('.slot-time');
-      pulangTime.textContent = '14:30 ';
+      pulangTime.textContent = '15:00 ';
       
       if (isPulangTime) {
         pulangSlot.classList.add('active');
